@@ -13,6 +13,7 @@ pub mod is_happy;
 pub mod is_isomorphic;
 pub mod is_ugly;
 pub mod lemonade_change;
+pub mod longest_common_prefix;
 pub mod map_sum;
 pub mod merge_two_sorted_lists;
 pub mod min_ascii;
