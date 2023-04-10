@@ -1,3 +1,5 @@
+
+
 pub struct Solution;
 
 impl Solution {
@@ -8,7 +10,7 @@ impl Solution {
         s2_chars.sort();
         let mut diff_vec = Vec::new();
         for i in 0..s1_chars.len() {
-            if !s2_chars.contains(&s1_chars[i]) && !diff_vec.contains(&s1_chars[j]) {
+            if !s2_chars.contains(&s1_chars[i]) && !diff_vec.contains(&s1_chars[i]) {
                 diff_vec.push(s1_chars[i])
             }
         }

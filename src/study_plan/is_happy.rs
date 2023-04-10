@@ -3,7 +3,7 @@ use std::ops::Add;
 pub struct Solution;
 
 impl Solution {
-    pub fn sum_digits(n: i32) -> i32 {
+    pub fn sum_digits(mut n: i32) -> i32 {
         let mut res = 0;
         while n > 0 {
             let rem = n % 10;

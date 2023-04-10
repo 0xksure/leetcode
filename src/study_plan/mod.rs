@@ -4,6 +4,7 @@ pub mod bianary_watch;
 pub mod check_straight_line;
 pub mod contains_duplicates;
 pub mod divide_circles;
+pub mod find_ball;
 pub mod find_numbers;
 pub mod find_pivot_index;
 pub mod get_min_swaps;
