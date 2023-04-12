@@ -17,6 +17,8 @@ pub mod longest_common_prefix;
 pub mod map_sum;
 pub mod merge_two_sorted_lists;
 pub mod min_ascii;
+pub mod multiply_strings;
+pub mod palindrome_linked_list;
 pub mod remove_duplicates;
 pub mod replace_words;
 pub mod running_sums;
